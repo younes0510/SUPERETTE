@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-200">
+    <div
+      class="bg-slate-300 pb-6 shadow-lg flex justify-around items-center pt-6"
+    >
+      <h1 class="text-3xl font-black text-orange-600">SUPERETTE : 3M</h1>
+      <div class="flex gap-4">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          style="fill: rgba(0, 0, 0, 1); transform: msFilter"
+        >
+          <path
+            d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921zM17.307 15h-6.64l-2.5-6h11.39l-2.25 6z"
+          ></path>
+          <circle cx="10.5" cy="19.5" r="1.5"></circle>
+          <circle cx="17.5" cy="19.5" r="1.5"></circle>
+        </svg>
+        : <span id="car">0</span>
+
+        <h2 class="px-6">prix : <span id="prix" class="prix px-3">0</span></h2>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-3 m-28 gap-7">
+      <div class="text-center card">
+        <img
+          src="https://us.coca-cola.com/content/dam/nagbrands/us/coke/en/value-collection/coca-cola-1.25-liter-new.png"
+          alt=""
+          class="w-44 h-32 mx-32"
+        />
+        <h1 class="px-6 pt-4 text-2xl">CocaCola 1L:<span  class="product-price">100</span>da</h1>
+        <button
+          class="plus px-6 rounded-xl border-2 border-red-600 m-6 text-2xl hover:bg-red-500 hover:text-white"
+        >
+          +
+        </button>
+        <h1 class="quantity text-2xl">0</h1>
+        <button
+          class="moins px-6 rounded-xl border-2 border-red-600 m-6 text-2xl hover:bg-red-500 hover:text-white"
+        >
+          -
+        </button>
+      </div>
+
+      <div class="text-center card">
+        <img
+          src="https://th.bing.com/th/id/R.c59978fa427634b717283fb50356064e?rik=2SxqsizVmss3MQ&pid=ImgRaw&r=0"
+          alt=""
+          class="w-44 h-32 mx-32"
+        />
+        <h1 class="px-6 pt-4 text-2xl">ROUIBA: <span  class="product-price"> 120 </span>da</h1>
+        <button
+          class="plus px-6 rounded-xl border-2 border-red-600 m-6 text-2xl hover:bg-red-500 hover:text-white"
+        >
+          +
+        </button>
+        <h1 class="quantity text-2xl">0</h1>
+        <button
+          class="moins px-6 rounded-xl border-2 border-red-600 m-6 text-2xl hover:bg-red-500 hover:text-white"
+        >
+          -
+        </button>
+      </div>
+      <div class="text-center card">
+        <img
+          src="https://images.migrosone.com/sanalmarket/product/08022712/8022712_yan-403b23-1650x1650.png"
+          alt=""
+          class="w-44 h-32 mx-32"
+        />
+        <h1 class="px-6 pt-4 text-2xl">SCHWEPPES: <span  class="product-price">140</span>da</h1>
+        <button
+          class="plus px-6 rounded-xl border-2 border-red-600 m-6 text-2xl hover:bg-red-500 hover:text-white"
+        >
+          +
+        </button>
+        <h1 class="quantity text-2xl">0</h1>
+        <button
+          class="moins px-6 rounded-xl border-2 border-red-600 m-6 text-2xl hover:bg-red-500 hover:text-white"
+        >
+          -
+        </button>
+      </div>
+      <div class="text-center card">
+        <img
+          src="https://www.grand-fermage.fr/wp-content/uploads/2020/08/camembert_125g_inter-e1599669200360.png"
+          alt=""
+          class="w-44 h-32 mx-32"
+        />
+        <h1 class="px-6 pt-4 text-2xl">CAMEMBERT : <span  class="product-price">400</span>da</h1>
+        <button
+          class="plus px-6 rounded-xl border-2 border-red-600 m-6 text-2xl hover:bg-red-500 hover:text-white"
+        >
+          +
+        </button>
+        <h1 class="quantity text-2xl">0</h1>
+        <button
+          class="moins px-6 rounded-xl border-2 border-red-600 m-6 text-2xl hover:bg-red-500 hover:text-white"
+        >
+          -
+        </button>
+      </div>
+      <div class="text-center card">
+        <img
+          src="https://www.nutella.com/il/sites/nutella20_il/files/2021-05/jar-1kg.png?t=1701783560"
+          alt=""
+          class="w-44 h-32 mx-32"
+        />
+        <h1 class="px-6 pt-4 text-2xl">NUTELLA : <span  class="product-price">1750da</span></h1>
+        <button
+          class="plus px-6 rounded-xl border-2 border-red-600 m-6 text-2xl hover:bg-red-500 hover:text-white"
+        >
+          +
+        </button>
+        <h1 class="quantity text-2xl">0</h1>
+        <button
+          class="moins px-6 rounded-xl border-2 border-red-600 m-6 text-2xl hover:bg-red-500 hover:text-white"
+        >
+          -
+        </button>
+      </div>
+      <div class="text-center card">
+        <img
+          src="https://aromagold.eu/wp-content/uploads/2019/06/200-aroma.png"
+          alt=""
+          class="w-44 h-32 mx-32"
+        />
+        <h1 class="px-6 pt-4 text-2xl">CAFE : <span  class="product-price">400</span>da</h1>
+        <button
+          class="plus px-6 rounded-xl border-2 border-red-600 m-6 text-2xl hover:bg-red-500 hover:text-white"
+        >
+          +
+        </button>
+        <h1 class="quantity text-2xl">0</h1>
+        <button
+          class="moins px-6 rounded-xl border-2 border-red-600 m-6 text-2xl hover:bg-red-500 hover:text-white"
+        >
+          -
+        </button>
+      </div>
+      <div class="text-center card">
+        <img
+          src="https://superetti.dz/wp-content/uploads/2023/02/Maxon-Chocolat-lait-eclat-Amande-150g.png"
+          alt=""
+          class="w-44 h-32 mx-32"
+        />
+        <h1 class="px-6 pt-4 text-2xl">MAXON :<span  class="product-price">200</span>da</h1>
+        <button
+          class="plus px-6 rounded-xl border-2 border-red-600 m-6 text-2xl hover:bg-red-500 hover:text-white"
+        >
+          +
+        </button>
+        <h1 class="quantity text-2xl">0</h1>
+        <button
+          class="moins px-6 rounded-xl border-2 border-red-600 m-6 text-2xl hover:bg-red-500 hover:text-white"
+        >
+          -
+        </button>
+      </div>
+      <div class="text-center card">
+        <img
+          src="https://www.snickers.co.uk/sites/g/files/fnmzdf751/files/migrate-product-files/aiodmhp4izhceuxysgds.png"
+          alt=""
+          class="w-44 h-32 mx-32"
+        />
+        <h1 class="px-6 pt-4 text-2xl">SNICKERS :<span  class="product-price"> 2500</span>da</h1>
+        <button
+          class="plus px-6 rounded-xl border-2 border-red-600 m-6 text-2xl hover:bg-red-500 hover:text-white"
+        >
+          +
+        </button>
+        <h1 class="quantity text-2xl">0</h1>
+        <button
+          class="moins px-6 rounded-xl border-2 border-red-600 m-6 text-2xl hover:bg-red-500 hover:text-white"
+        >
+          -
+        </button>
+      </div>
+      <div class="text-center card">
+        <img
+          src="https://th.bing.com/th/id/R.6d00aade50a4fab6ce677d9cb120428f?rik=h4j%2f%2fSww4p7k6A&pid=ImgRaw&r=0"
+          alt=""
+          class="w-44 h-32 mx-32"
+        />
+        <h1 class="px-6 pt-4 text-2xl">MILKA : <span  class="product-price">350</span>da</h1>
+        <button
+          class="plus px-6 rounded-xl border-2 border-red-600 m-6 text-2xl hover:bg-red-500 hover:text-white"
+        >
+          +
+        </button>
+        <h1 class="quantity text-2xl">0</h1>
+        <button
+          class="moins px-6 rounded-xl border-2 border-red-600 m-6 text-2xl hover:bg-red-500 hover:text-white"
+        >
+          -
+        </button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
